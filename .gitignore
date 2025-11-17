@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+vendor/
+venv/
+env/
+.env
+.venv
+
+# IDE and Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build and Distribution
+dist/
+build/
+*.egg-info/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Configuration
+.env.local
+.env.*.local
+config/local.*
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Testing
+coverage/
+.coverage
+.pytest_cache/
+.nyc_output/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
